@@ -3,7 +3,7 @@
 ## Features ##
 
 * A custom theme that matches the one used in [darkcloud-vimconfig](https://github.com/prurigro/darkcloud-vimconfig).
-* A bandwidth monitor showing the current upload and download speed of either eth0 or the device you've set to $NETDEV.
+* A bandwidth monitor showing the current upload and download speed of either **eth0** or the device you've set to **$NETDEV**.
 * Sane defaults and a set of custom key bindings that group similar ideas and make frequently used commands easier to access.
 * Optional support for powerline fonts that looks oh so much better when they're used :).
 
