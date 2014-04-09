@@ -7,6 +7,8 @@
 * Sane defaults and a set of custom key bindings that group similar ideas and make frequently used commands easier to access.
 * Optional support for powerline fonts that looks oh so much better when they're used :).
 
+![Darkcloud TMUX Config Theme](http://i.imgur.com/65gEkhB.png)
+
 ## Installation ##
 
 1. Choose either **tmux.powerline.conf** if powerline fonts are available or **tmux.normal.conf** if they're not, and install it to __/etc/tmux.conf__ for a system-wide install or __~/.tmux.conf__ for a local install.
