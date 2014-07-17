@@ -17,25 +17,25 @@
 
 ## Key Bindings ##
 
-* **Prefix**: Ctrl-Space
-* **m** and **Ctrl-m**: Toggle mouse mode on and off respectively.
-* **\** and **Ctrl-\**: Toggle the status bar on and off respectively.
-* **c** and **Ctrl-c**: Create a new pane (with repetition) and create a new pane in the current directory (with repetition) respectively.
-* **[** and **]**: Split the window vertically and horizontally respectively.
-* **{** and **}**: Rotate the window up and down respectively.
-* **=** and **-**: Select an even layout horizontally and vertically respectively.
-* **=** and **-**: Select a main layout horizontally and vertically respectively.
-* **Space** and **Ctrl-Space**: Move to the previously selected window and pane respectively.
-* **h**, **j**, **k** and **l**: Move left, down, up and right between panes respectively like the arrow keys.
-* **`**: Toggle synchronized input between the panes on the current window.
-* **Escape**: Clear the terminal history, tmux history and the current window/pane.
-* **?** and **/**: Show help for available key bindings and commands respectively.
-* **y** and **Ctrl-p**: Enter __copy mode__ and paste from the copy buffer respectively.
-* (__copy mode__) **v**, **y** and **Escape**: Begin selection, copy selection and cancel __copy mode__ respectively.
+* **Prefix**: `Ctrl-Space`
+* `m` and `Ctrl-m`: Toggle mouse mode on and off respectively.
+* `\` and `Ctrl-\`: Toggle the status bar on and off respectively.
+* `c` and `Ctrl-c`: Create a new pane and create a new pane in the current directory respectively.
+* `[` and `]`: Split the window vertically and horizontally respectively.
+* `{` and `}`: Rotate the window up and down respectively.
+* `=` and `-`: Select an even layout horizontally and vertically respectively.
+* `=` and `-`: Select a main layout horizontally and vertically respectively.
+* `Space` and `Ctrl-Space`: Move to the previously selected window and pane respectively.
+* `h`, `j`, `k` and `l`: Move left, down, up and right between panes respectively like the arrow keys.
+* `` ` ``: Toggle synchronized input between the panes on the current window.
+* `Escape`: Clear the terminal history, tmux history and the current window/pane.
+* `?` and `/`: Show help for available key bindings and commands respectively.
+* `y` and `Ctrl-p`: Enter __copy mode__ and paste from the copy buffer respectively.
+* (**copy mode**) `v`, `y` and `Escape`: Begin selection, copy selection and cancel **copy mode** respectively.
 
 ## Credits ##
 
-* Written by prurigro: [GitHub Projects](https://github.com/prurigro) | [Arch Linux AUR Packages](https://aur.archlinux.org/packages/?SeB=m&K=prurigro)
+* Written by Kevin MacMartin: [GitHub Projects](https://github.com/prurigro) | [Arch Linux AUR Packages](https://aur.archlinux.org/packages/?SeB=m&K=prurigro)
 
 ## License ##
 This config and the bwrate script are released under the MIT license.
