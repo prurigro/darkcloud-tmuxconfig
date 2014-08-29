@@ -31,6 +31,7 @@
 * `Escape`: Clear the terminal history, tmux history and the current window/pane.
 * `?` and `/`: Show help for available key bindings and commands respectively.
 * `y` and `Ctrl-p`: Enter __copy mode__ and paste from the copy buffer respectively.
+* `Ctrl-v` and `Ctrl-y`: Pastes the X buffer in tmux, and sends the tmux buffer to X respectively.
 * (**copy mode**) `v`, `y` and `Escape`: Begin selection, copy selection and cancel **copy mode** respectively.
 * `Alt-[0-9]` (no prefix): Switch directly to the given window.
 * `W`: Write scrollback buffer to file.
