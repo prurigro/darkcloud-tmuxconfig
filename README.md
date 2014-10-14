@@ -24,7 +24,10 @@
 * `[` and `]`: Split the window vertically and horizontally respectively.
 * `{` and `}`: Rotate the window up and down respectively.
 * `=` and `-`: Select an even layout horizontally and vertically respectively.
-* `=` and `-`: Select a main layout horizontally and vertically respectively.
+* `+` and `_`: Select a main layout horizontally and vertically respectively.
+* `<` and `>`: Swap the current window with the first and last window respectively.
+* `.` and `,`: Move and swap the current window with the provided window number respectively.
+* `$` and `#`: Rename the current session and window with the provided name respectively.
 * `Space` and `Ctrl-Space`: Move to the previously selected window and pane respectively.
 * `h`, `j`, `k` and `l`: Move left, down, up and right between panes respectively like the arrow keys.
 * `` ` ``: Toggle synchronized input between the panes on the current window.
