@@ -23,10 +23,10 @@
 |-----------------------------------------|----------------------------------------------------------------------------------------|
 | `<Backslash>` and `<Ctrl><Backslash>`   | Toggle the status bar on and off respectively                                          |
 | `c` and `<Ctrl>c`                       | Create a new pane and create a new pane in the current directory respectively          |
-| `_` and `+`                             | Join a window as a split pane top/bottom and left/right respectively (leave pane: `!`) |
 | `[` and `]`                             | Split the window vertically and horizontally respectively                              |
-| `{` and `}`                             | Rotate the window up and down respectively                                             |
-| `=` and `-`                             | Select an even layout horizontally and vertically respectively                         |
+| `{` and `}`                             | Join a window as a split pane top/bottom and left/right respectively (leave pane: `!`) |
+| `-` and `=`                             | Select an even layout vertically and horizontally respectively                         |
+| `_` and `+`                             | Rotate the window counter-clockwise and clockwise respectively                                             |
 | `<` and `>`                             | Move the current window to the first and last window respectively                      |
 | `.` and `,`                             | Move and swap the current window with the provided window number respectively          |
 | `$` and `#`                             | Rename the current session and window with the provided name respectively              |
