@@ -17,27 +17,29 @@
 
 ## Key Bindings ##
 
-* **Prefix**: `Ctrl-Space`
-* `m` and `Ctrl-m`: Toggle mouse mode on and off respectively.
-* `\` and `Ctrl-\`: Toggle the status bar on and off respectively.
-* `c` and `Ctrl-c`: Create a new pane and create a new pane in the current directory respectively.
-* `[` and `]`: Split the window vertically and horizontally respectively.
-* `{` and `}`: Rotate the window up and down respectively.
-* `=` and `-`: Select an even layout horizontally and vertically respectively.
-* `+` and `_`: Select a main layout horizontally and vertically respectively.
-* `<` and `>`: Swap the current window with the first and last window respectively.
-* `.` and `,`: Move and swap the current window with the provided window number respectively.
-* `$` and `#`: Rename the current session and window with the provided name respectively.
-* `Space` and `Ctrl-Space`: Move to the previously selected window and pane respectively.
-* `h`, `j`, `k` and `l`: Move left, down, up and right between panes respectively like the arrow keys.
-* `` ` ``: Toggle synchronized input between the panes on the current window.
-* `Escape`: Clear the terminal history, tmux history and the current window/pane.
-* `?` and `/`: Show help for available key bindings and commands respectively.
-* `y` and `Ctrl-p`: Enter __copy mode__ and paste from the copy buffer respectively.
-* `Ctrl-v` and `Ctrl-y`: Pastes the X buffer in tmux, and sends the tmux buffer to X respectively.
-* (**copy mode**) `v`, `y` and `Escape`: Begin selection, copy selection and cancel **copy mode** respectively.
-* `Alt-[0-9]` (no prefix): Switch directly to the given window.
-* `W`: Write scrollback buffer to file.
+* **Prefix**: `<Ctrl><Space>`
+
+| Key(s)                                  | Behaviour                                                                              |
+|-----------------------------------------|----------------------------------------------------------------------------------------|
+| `<Backslash>` and `<Ctrl><Backslash>`   | Toggle the status bar on and off respectively                                          |
+| `c` and `<Ctrl>c`                       | Create a new pane and create a new pane in the current directory respectively          |
+| `_` and `+`                             | Join a window as a split pane top/bottom and left/right respectively (leave pane: `!`) |
+| `[` and `]`                             | Split the window vertically and horizontally respectively                              |
+| `{` and `}`                             | Rotate the window up and down respectively                                             |
+| `=` and `-`                             | Select an even layout horizontally and vertically respectively                         |
+| `<` and `>`                             | Move the current window to the first and last window respectively                      |
+| `.` and `,`                             | Move and swap the current window with the provided window number respectively          |
+| `$` and `#`                             | Rename the current session and window with the provided name respectively              |
+| `<Space>` and `<Ctrl><Space>`           | Move to the previously selected window and pane respectively                           |
+| `h`, `j`, `k` and `l`                   | Move left, down, up and right between panes respectively like the arrow keys           |
+| `` ` ``                                 | Toggle synchronized input between the panes on the current window                      |
+| `<Escape>`                              | Clear the terminal history, tmux history and the current window/pane                   |
+| `?` and `/`                             | Show help for available key bindings and commands respectively                         |
+| `y` and `<Ctrl>p`                       | Enter __copy mode__ and paste from the copy buffer respectively                        |
+| `<Ctrl>v` and `<Ctrl>y`                 | Pastes the X buffer in tmux, and sends the tmux buffer to X respectively               |
+| (**copy mode**) `v`, `y` and `<Escape>` | Begin selection, copy selection and cancel **copy mode** respectively                  |
+| `Alt-[0-9]` (no prefix)                 | Switch directly to the given window                                                    |
+| `W`                                     | Write scrollback buffer to file                                                        |
 
 ## Italics Support ##
 
