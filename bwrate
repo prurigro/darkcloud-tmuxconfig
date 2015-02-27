@@ -1,27 +1,26 @@
 #!/usr/bin/env bash
 
-TIMESPAN=1
+timespan=1
 
-if [ -z $1 ]; then
-    echo "Error: no device specified"
+[[ -z "$1" ]] && {
+    printf '%s\n' 'Error: no device specified'
     exit 1
-fi
-if [ ! -d /sys/class/net/$1 ]; then
-    echo "No such device: $1"
+}
+[[ ! -d "/sys/class/net/$1" ]] && {
+    printf '%s\n' "No such device: $1"
     exit 1
-fi
+}
 
-BR1=`cat /sys/class/net/$1/statistics/rx_bytes`
-BT1=`cat /sys/class/net/$1/statistics/tx_bytes`
+br1=$(</sys/class/net/"$1"/statistics/rx_bytes)
+bt1=$(</sys/class/net/"$1"/statistics/tx_bytes)
 
-sleep $TIMESPAN
+sleep $timespan
 
-BR2=`cat /sys/class/net/$1/statistics/rx_bytes`
-BT2=`cat /sys/class/net/$1/statistics/tx_bytes`
+br2=$(cat /sys/class/net/"$1"/statistics/rx_bytes)
+bt2=$(cat /sys/class/net/"$1"/statistics/tx_bytes)
 
-DOWNKB=$(((($BR2-$BR1) / $TIMESPAN) /1024))
-UPKB=$(((($BT2-$BT1) / $TIMESPAN) /1024))
+u_speed=$(( ( ( bt2 - bt1 ) / timespan ) / 1024 ))
+d_speed=$(( ( ( br2 - br1 ) / timespan ) / 1024 ))
 
-echo "D ${DOWNKB}KB/s | U ${UPKB}KB/s"
+printf '%s\n' "D ${d_speed}KB/s | U ${u_speed}KB/s"
 
-exit 0
