@@ -33,7 +33,7 @@
 | `<Space>` and `<Ctrl><Space>`           | Move to the previously selected pane and window respectively                           |
 | `h`, `j`, `k` and `l`                   | Move left, down, up and right between panes respectively like the arrow keys           |
 | `` ` ``                                 | Toggle synchronized input between the panes on the current window                      |
-| `<Ctrl><Escape>`                        | Clear the terminal history, tmux history and the current window/pane                   |
+| `<Ctrl>r`                               | Clear the terminal history, tmux history and the current window/pane                   |
 | `?` and `/`                             | Show help for available key bindings and commands respectively                         |
 | `y` and `<Ctrl>p`                       | Enter __copy mode__ and paste from the copy buffer respectively                        |
 | `<Ctrl>v` and `<Ctrl>y`                 | Pastes the X buffer in tmux, and sends the tmux buffer to X respectively               |
