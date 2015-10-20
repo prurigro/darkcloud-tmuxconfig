@@ -1,6 +1,6 @@
 # Darkcloud TMUX Config
 
-## Features ##
+## Features
 
 * A custom theme that matches the one used in [darkcloud-vimconfig](https://github.com/prurigro/darkcloud-vimconfig).
 * A bandwidth monitor showing the current upload and download speed of either **eth0** or the device you've set to **$NETDEV**.
@@ -9,13 +9,13 @@
 
 ![Darkcloud TMUX Config Theme](http://i.imgur.com/Ps3XmMc.png)
 
-## Installation ##
+## Installation
 
 1. Choose either **tmux.powerline.conf** if powerline fonts are available or **tmux.normal.conf** if they're not, and install it to __/etc/tmux.conf__ for a system-wide install or __~/.tmux.conf__ for a local install.
-2. Install **bwrate** to somewhere available in **$PATH** and make it executable (ie: `install -Dm755 bwrate /usr/local/bin/bwrate`)
-3. If your network device isn't named **eth0**, set **$NETDEV** to the name of the device you'd like to use somewhere tmux will see it when it runs (ie: `echo 'export $NETDEV="wlan0"' >> ~/.bashrc`)
+1. Install **bwrate** to somewhere available in **$PATH** and make it executable (ie: `install -Dm755 bwrate /usr/local/bin/bwrate`)
+1. If your network device isn't named **eth0**, set **$NETDEV** to the name of the device you'd like to use somewhere tmux will see it when it runs (ie: `echo 'export $NETDEV="wlan0"' >> ~/.bashrc`)
 
-## Key Bindings ##
+## Key Bindings
 
 * **Prefix**: `<Ctrl><Space>`
 
@@ -34,6 +34,8 @@
 | `h`, `j`, `k` and `l`                   | Move left, down, up and right between panes respectively like the arrow keys           |
 | `` ` ``                                 | Toggle synchronized input between the panes on the current window                      |
 | `<Ctrl>r`                               | Clear the terminal history, tmux history and the current window/pane                   |
+| `r` and `R`                             | Reload /etc/tmux.conf and ~/.tmux.conf respectively                                    |
+| `m` and `<Ctrl>m`                       | Enable and disable the mouse respectively                                              |
 | `?` and `/`                             | Show help for available key bindings and commands respectively                         |
 | `y` and `<Ctrl>p`                       | Enter __copy mode__ and paste from the copy buffer respectively                        |
 | `<Ctrl>v` and `<Ctrl>y`                 | Pastes the X buffer in tmux, and sends the tmux buffer to X respectively               |
@@ -41,14 +43,14 @@
 | `W`                                     | Write scrollback buffer to file                                                        |
 | `Alt-[0-9]` (no prefix)                 | Switch directly to the given window                                                    |
 
-## Italics Support ##
+## Italics Support
 
 Tmux supports italics if your terminal does, but the terminfo files _screen_ and _screen-256color_ don't advertise this, and most programs will display reversed text when it should be italics. To fix this, run: `tmux-italics-terminfo`, then follow the instructions it displays by changing `set-option -g default-terminal "screen-256color"` to `set-option -g default-terminal "screen-256color-it"` in your _tmux.conf_. You'll want to make sure your _/etc/bash.bashrc_, _/etc/dircolors_, possibly **vim** and any other terminal applications that check the `$TERM` variable have _screen-it_ and _screen-256color-it_ added.
 
-## Credits ##
+## Credits
 
 * Written by Kevin MacMartin: [GitHub Projects](https://github.com/prurigro) | [Arch Linux AUR Packages](https://aur.archlinux.org/packages/?SeB=m&K=prurigro)
 
-## License ##
+## License
 
 This config and the bwrate script are released under the MIT license.
