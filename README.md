@@ -13,7 +13,7 @@
 
 1. Choose either **tmux.powerline.conf** if powerline fonts are available or **tmux.normal.conf** if they're not, and install it to __/etc/tmux.conf__ for a system-wide install or __~/.tmux.conf__ for a local install.
 1. Install **bwrate** to somewhere available in **$PATH** and make it executable (ie: `install -Dm755 bwrate /usr/local/bin/bwrate`)
-1. If your network device isn't named **eth0**, set **$NETDEV** to the name of the device you'd like to use somewhere tmux will see it when it runs (ie: `echo 'export $NETDEV="wlan0"' >> ~/.bashrc`)
+1. If your network device isn't named **eth0**, set **$NETDEV** to the name of the device you'd like to use somewhere tmux will see it when it runs (ie: `echo 'export NETDEV="wlan0"' >> ~/.bashrc`)
 
 ## Key Bindings
 
