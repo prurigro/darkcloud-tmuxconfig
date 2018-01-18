@@ -23,4 +23,3 @@ u_speed=$(( ( ( bt2 - bt1 ) / timespan ) / 1024 ))
 d_speed=$(( ( ( br2 - br1 ) / timespan ) / 1024 ))
 
 printf '%s\n' "D ${d_speed}KB/s | U ${u_speed}KB/s"
-
