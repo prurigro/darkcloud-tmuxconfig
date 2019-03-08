@@ -7,7 +7,7 @@
 * Sane defaults and a set of custom key bindings that group similar ideas and make frequently used commands easier to access.
 * Optional support for powerline fonts that looks oh so much better when they're used :).
 
-![Darkcloud TMUX Config Theme](http://i.imgur.com/Ps3XmMc.png)
+![Darkcloud TMUX Config Theme](https://i.imgur.com/Ps3XmMc.png)
 
 ## Installation
 
