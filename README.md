@@ -21,10 +21,8 @@
 
 | Key(s)                                  | Behaviour                                                                              |
 |-----------------------------------------|----------------------------------------------------------------------------------------|
-| `<Backslash>` and `<Ctrl><Backslash>`   | Toggle the status bar on and off respectively                                          |
 | `c` and `<Ctrl>c`                       | Create a new pane and create a new pane in the current directory respectively          |
 | `[` and `]`                             | Split the window vertically and horizontally respectively                              |
-| `{` and `}`                             | Join a window as a split pane top/bottom and left/right respectively (leave pane: `!`) |
 | `-` and `=`                             | Select an even layout vertically and horizontally respectively                         |
 | `_` and `+`                             | Rotate the window counter-clockwise and clockwise respectively                         |
 | `<` and `>`                             | Move the current window to the first and last window respectively                      |
