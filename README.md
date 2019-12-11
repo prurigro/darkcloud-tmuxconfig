@@ -25,7 +25,6 @@
 | `[` and `]`                             | Split the window vertically and horizontally respectively                              |
 | `-` and `=`                             | Select an even layout vertically and horizontally respectively                         |
 | `_` and `+`                             | Rotate the window counter-clockwise and clockwise respectively                         |
-| `<` and `>`                             | Move the current window to the first and last window respectively                      |
 | `.` and `,`                             | Move and swap the current window with the provided window number respectively          |
 | `$` and `#`                             | Rename the current session and window with the provided name respectively              |
 | `<Space>` and `<Ctrl><Space>`           | Move to the previously selected pane and window respectively                           |
