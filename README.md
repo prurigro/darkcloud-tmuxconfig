@@ -40,10 +40,6 @@
 | `W`                                     | Write scrollback buffer to file                                                        |
 | `Alt-[0-9]` (no prefix)                 | Switch directly to the given window                                                    |
 
-## Italics Support
-
-Tmux supports italics if your terminal does, but the terminfo files _screen_ and _screen-256color_ don't advertise this, and most programs will display reversed text when it should be italics. To fix this, run: `tmux-italics-terminfo`, then follow the instructions it displays by changing `set-option -g default-terminal "screen-256color"` to `set-option -g default-terminal "screen-256color-it"` in your _tmux.conf_. You'll want to make sure your _/etc/bash.bashrc_, _/etc/dircolors_, possibly **vim** and any other terminal applications that check the `$TERM` variable have _screen-it_ and _screen-256color-it_ added.
-
 ## Credits
 
 * Written by Kevin MacMartin: [GitHub Projects](https://github.com/prurigro) | [Arch Linux AUR Packages](https://aur.archlinux.org/packages/?SeB=m&K=prurigro)
