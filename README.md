@@ -32,7 +32,6 @@
 | `` ` ``                                 | Toggle synchronized input between the panes on the current window                      |
 | `<Ctrl>r`                               | Clear the terminal history, tmux history and the current window/pane                   |
 | `r` and `R`                             | Reload /etc/tmux.conf and ~/.tmux.conf respectively                                    |
-| `m` and `<Ctrl>m`                       | Enable and disable the mouse respectively                                              |
 | `?` and `/`                             | Show help for available key bindings and commands respectively                         |
 | `y` and `<Ctrl>p`                       | Enter __copy mode__ and paste from the copy buffer respectively                        |
 | `<Ctrl>v` and `<Ctrl>y`                 | Pastes the X buffer in tmux, and sends the tmux buffer to X respectively               |
