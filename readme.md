@@ -44,6 +44,7 @@
 |-----------------------------------------|--------------------------------------------------------------------|
 | `<Alt><Shift><Up,Down,Left,Right>`      | Navigate to the pane in the respective direction                   |
 | `<Alt>N` and `<Alt>P`                   | Switch to the next and previous window                             |
+| `<Ctrl><Alt>N` and `<Ctrl><Alt>P`       | Swap the current window with the next and previous window          |
 | `Alt-[0-9]`                             | Switch to the window with the respective index                     |
 
 ### Copy Mode
