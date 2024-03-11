@@ -37,6 +37,7 @@
 | `W`                                     | Write scrollback buffer to file                                    |
 | `V`                                     | Enter **copy mode**                                                |
 | `<Ctrl>p`                               | Paste from the copy buffer                                         |
+| `N` and `P`                             | Move to the next and previous session                              |
 
 ### Without Prefix
 
