@@ -32,12 +32,12 @@
 | `#`                                     | Rename the current window                                          |
 | `<Space>` and `<Ctrl><Space>`           | Move to the previously selected pane and window                    |
 | `` ` ``                                 | Toggle synchronized input between the panes on the current window  |
-| `r`                                     | Reload /etc/tmux.conf                                              |
-| `?` and `/`                             | Show help for available key binding help and command help          |
+| `r` and `R`                             | Reload /etc/tmux.conf  and ~/.tmux.conf                            |
+| `F1` and `F2`                           | Show help for available commands and keyboard bindings             |
 | `W`                                     | Write scrollback buffer to file                                    |
 | `V`                                     | Enter **copy mode**                                                |
 | `<Ctrl>p`                               | Paste from the copy buffer                                         |
-| `N` and `P`                             | Move to the next and previous session                              |
+| `P` and `N`                             | Move to the previous and next session                              |
 
 ### Without Prefix
 
@@ -47,6 +47,7 @@
 | `<Alt>N` and `<Alt>P`                   | Switch to the next and previous window                             |
 | `<Ctrl><Alt>N` and `<Ctrl><Alt>P`       | Swap the current window with the next and previous window          |
 | `Alt-[0-9]`                             | Switch to the window with the respective index                     |
+| `Alt-?`                                 | Start searching up                                                 |
 
 ### Copy Mode
 
