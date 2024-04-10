@@ -24,7 +24,7 @@
 | Key(s)                                  | Behaviour                                                          |
 |-----------------------------------------|--------------------------------------------------------------------|
 | `c` and `<Ctrl>c`                       | Create a new pane and create a new pane in the current directory   |
-| `[` and `]`                             | Split the window vertically and horizontally                       |
+| `[` and `]`                             | Create a new pane to the right and below the current one           |
 | `-` and `=`                             | Select an even layout vertically and horizontally                  |
 | `_` and `+`                             | Rotate the panes clockwise and counter-clockwise                   |
 | `S`                                     | Swap the current pane with the marked one (`M` to mark)            |
