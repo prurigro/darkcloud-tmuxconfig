@@ -44,6 +44,7 @@
 | Key(s)                                  | Behaviour                                                          |
 |-----------------------------------------|--------------------------------------------------------------------|
 | `<Alt><Up,Down,Left,Right>`             | Navigate to the pane in the respective direction                   |
+| `<Ctrl><Alt><Up,Down,Left,Right>`       | Swap the current pane with the pane in the respective direction    |
 | `<Alt>n` and `<Alt>p`                   | Switch to the next and previous window                             |
 | `<Ctrl><Alt>n` and `<Ctrl><Alt>p`       | Swap the current window with the next and previous window          |
 | `Alt-[0-9]`                             | Switch to the window with the respective index                     |
