@@ -47,8 +47,9 @@
 | `<Ctrl><Alt><Up,Down,Left,Right>`       | Swap the current pane with the pane in the respective direction    |
 | `<Alt>n` and `<Alt>p`                   | Switch to the next and previous window                             |
 | `<Ctrl><Alt>n` and `<Ctrl><Alt>p`       | Swap the current window with the next and previous window          |
-| `Alt-[0-9]`                             | Switch to the window with the respective index                     |
-| `Alt-?`                                 | Start searching up                                                 |
+| `<Alt>[0-9]`                            | Switch to the window with the respective index                     |
+| `<Alt>)` and `<Alt>(`                   | Switch to the next and previous session                            |
+| `<Alt>/`                                | Start searching up                                                 |
 
 ### Copy Mode
 
